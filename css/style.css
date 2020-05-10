@@ -93,12 +93,16 @@ body
 {
     #div1
     {
-        width: 47%;    
+        margin: 0;
+        margin-bottom: 0.8%;
+        width: 48%;    
     }
     #div2
     {
-        width: 47%;
+        width: 48%;
         float: right;
+        margin: 0;
+        margin-bottom: 0.8%;
     }
     #div3
     {
@@ -111,16 +115,20 @@ body
 {
     #div1
     {
-       
+        margin: 0;
+        margin-bottom: 0.8%;
         width:100%;    
     }
     #div2
     {
         width:100%;
-      
+        margin: 0;
+        margin-bottom: 0.8%;
     }
     #div3
     {
+        margin: 0;
+        margin-bottom: 0.8%;
         width:100%;
     }
 

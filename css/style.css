@@ -49,14 +49,14 @@ body
 {
     width:31.69%;    
     
-    background-color: burlywood;
+    background-color: grey;
   
 }
 #div2
 {
     width: 31.69%;
     
-    background-color: chocolate;
+    background-color: grey;
     
   
 }
@@ -64,7 +64,7 @@ body
 {
     width: 31.69%;
     
-    background-color: coral;
+    background-color: grey;
     
 }
 #div4
@@ -74,12 +74,12 @@ body
 #div1 .sectionHeading
 {
       
-    background-color: chocolate;
+    background-color: pink;
     
 }
 #div2 .sectionHeading
 {
-    background-color: coral;
+    background-color: red;
     
 
 }

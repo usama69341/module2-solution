@@ -8,7 +8,12 @@ body
 {
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
-}    
+}   
+#cards
+{
+    margin: auto;
+    background-color: cornflowerblue;
+} 
 #heading
 {
     font-size: 1.75em;
@@ -24,6 +29,7 @@ body
     float: left;
     padding: 10px;
     border: black 1px solid;
+    margin: 0.8%;
    
 }
 .sectionHeading
@@ -42,25 +48,29 @@ body
 }
 #div1
 {
-    width:30%;    
-    margin-bottom: 1em;
+    width:31.69%;    
+    
     background-color: burlywood;
-    margin-right: 1em;
+  
 }
 #div2
 {
-    width: 30%;
-    margin-bottom: 1em;
+    width: 31.69%;
+    
     background-color: chocolate;
-    margin-left: 1em;
-    margin-right: 1em;
+    
+  
 }
 #div3
 {
-    width: 30%;
-    margin-bottom: 1em;
+    width: 31.69%;
+    
     background-color: coral;
-    margin-left: 1em;
+    
+}
+#div4
+{
+    clear: both;
 }
 #div1 .sectionHeading
 {
@@ -89,7 +99,6 @@ body
     #div2
     {
         width: 47%;
-        margin-right: 0;
         float: right;
     }
     #div3
@@ -103,21 +112,17 @@ body
 {
     #div1
     {
-        margin-left: 0;
-        margin-right: 0;
+       
         width:100%;    
     }
     #div2
     {
         width:100%;
-        margin-left: 0;
-        margin-right: 0;
+      
     }
     #div3
     {
         width:100%;
-        margin-left: 0;
-        margin-right: 0;
     }
 
 } 

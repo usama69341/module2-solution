@@ -1,0 +1,125 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+}    
+#heading
+{
+    font-size: 1.75em;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.div
+{
+    position: relative;
+    border: black 1px solid;
+    float: left;
+    padding: 10px;
+    border: black 1px solid;
+   
+}
+.sectionHeading
+{
+    text-transform: capitalize;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.25em;
+    padding: 5px 8px;
+    border: black 1px solid;
+}
+.sectionContent
+{
+    margin-top: 2em;
+}
+#div1
+{
+    width:30%;    
+    margin-bottom: 1em;
+    background-color: burlywood;
+    margin-right: 1em;
+}
+#div2
+{
+    width: 30%;
+    margin-bottom: 1em;
+    background-color: chocolate;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#div3
+{
+    width: 30%;
+    margin-bottom: 1em;
+    background-color: coral;
+    margin-left: 1em;
+}
+#div1 .sectionHeading
+{
+      
+    background-color: chocolate;
+    
+}
+#div2 .sectionHeading
+{
+    background-color: coral;
+    
+
+}
+#div3 .sectionHeading
+{
+    background-color: burlywood;
+    
+
+}
+@media screen and (min-width : 768px) and (max-width : 991px)
+{
+    #div1
+    {
+        width: 47%;    
+    }
+    #div2
+    {
+        width: 47%;
+        margin-right: 0;
+        float: right;
+    }
+    #div3
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width : 767px)
+{
+    #div1
+    {
+        margin-left: 0;
+        margin-right: 0;
+        width:100%;    
+    }
+    #div2
+    {
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #div3
+    {
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+} 
+
+
